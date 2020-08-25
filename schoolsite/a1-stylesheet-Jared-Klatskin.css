@@ -1,0 +1,70 @@
+/* Welcome to my style sheet. I wanted to make this site look like an old terminal, hence the green text and black background */
+
+/* Body text and background color. This section also adds the border around the page to make it more clean.
+Padding and margin are so the border isn't too close to the text or too close to the edge of the screen. */
+body {
+	/*font family defaults to Arial, but if a computer doesn't have Arial it will do a different sans-serif font */
+	font-family: Arial, sans-serif;
+	background-color: black;
+	color: #00ff00;
+    font-size: 87.5%;
+	width: 800px;
+	margin: 15px auto;
+	padding: 15px 25px;
+	border: 2px solid #00ff00;
+  }
+  
+/* This is giving my table a border */
+  table, td, th {
+    border: 2px solid #00ff00;
+	color: #00ff00;
+	margin-left: auto;
+   margin-right: auto;
+   width: 20%;
+}
+  
+/* This section defines the colors of the hyperlink states */
+  a:link {
+	text-decoration: underline;
+	color: #00ff00;
+  }
+  
+  a:hover {
+	text-decoration: underline overline;
+	color: #00ff00;
+  }
+  
+  a:visited {
+	text-decoration: underline;
+	color: #ff0000; 
+  }
+  
+  a:active {
+	text-decoration: underline;
+	color: blue;
+}
+
+/* Center alligned border mainly just for the page titles. Classes have dots before them, and can be used to create specialized sections. */
+.center{
+	border:3px solid #00ff00 ;
+	margin: auto;
+	width: 35%;
+	text-align: center;
+	padding: 5px;
+}
+
+/* header 1 is green, used for titlee of pages */
+h1 { 
+	color: #00ff00;
+	font-family: Arial, sans-serif;
+}
+
+h3 {
+	#00ff00;
+	font-family: Arial, sans-serif;
+}
+
+/*making my nav bar centered* */
+nav {
+	text-align: center;
+}
