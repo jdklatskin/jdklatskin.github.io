@@ -15,3 +15,6 @@ Fixing some small stuff with old site then going to start on new one.
 8:00 PM
 
 Gonna break the site for a bit as I replace the current index.html with another.
+
+1/22/24
+Trying to republish site without custom domain.
