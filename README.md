@@ -18,3 +18,6 @@ Gonna break the site for a bit as I replace the current index.html with another.
 
 1/22/24
 Trying to republish site without custom domain.
+
+5/16/24
+Adding stylesheet, trying to improve overall look. 
